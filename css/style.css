@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&display=swap');
+body,
+html {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h3 {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+h1 {
+  font-weight: 800;
+  font-size: 50px;
+}
+h4 {
+  font-weight: bold;
+  font-size: 20px;
+}
+.wrapper {
+  width: 960px;
+
+  margin: 0 auto;
+}
+.hero-banner {
+  background-color: #007fff;
+  min-height: 100vh;
+  padding: 50 20px;
+  position: relative;
+  overflow: hidden;
+}
+.hero-banner h3 {
+  color: white;
+  margin: 0 0 35px;
+}
+.hero-banner h1 {
+  color: white;
+  margin: 14px 0 20px;
+}
+.hero-banner h4,
+.hero-banner h4 a {
+  color: white;
+}
+.character1 {
+  background: url('imgs/character2.jpeg') no-repeat 0 0;
+  background-size: 100%;
+  width: 150px;
+  height: 300px;
+  position: absolute;
+  top: 70px;
+  right: 5%;
+  transform: rotate(15deg);
+}
+.character2 {
+  background: url('imgs/character1.jpeg') no-repeat 0 0;
+  background-size: 100%;
+  width: 150px;
+  height: 300px;
+  position: absolute;
+  top: 150px;
+  right: 250px;
+}
+.character3 {
+  background: url('imgs/character3.jpeg') no-repeat 0 0;
+  background-size: 100%;
+  width: 150px;
+  height: 300px;
+  position: absolute;
+  bottom: 70px;
+  right: 120px;
+  transform: rotate(20deg);
+}
+a.cta,
+button.cta {
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+  background: #007fff;
+  display: inline-block;
+
+  box-shadow: 0 0 0 10px rgba(0, 127, 255, 15);
+  padding: 20px 30px;
+  border-radius: 10px;
+  text-decoration: none;
+}
+a.cta.alt,
+button.cta.alt {
+  background: #ffd400;
+  color: #111111;
+  box-shadow: 0 0 0 10px rgba(0, 0, 0, 0.15);
+}
+
+/*
+
+    <div clas="hero-banner">
+      <div class="wrapper">
+        <h4>
+          Rich from
+          <a href="http://taptapkaboom.com">Tap Tap Kaboom</a>
+        </h4>
+        <h1>
+          The silliest &amp;
+          <br />
+          most awesome Gang
+          <br />
+          in the world.
+        </h1>
+        <h3>
+          It's Circle Guy, Hat Guy, &amp; Red Guy.
+          <br />
+          They're the best of friends .
+        </h3>
+        <a class="cta alt" href="#more-info">Read More</a>
+      </div>
+      <div class="character1"></div>
+      <div class="character2"></div>
+      <div class="character3"></div>
+    </div*/
